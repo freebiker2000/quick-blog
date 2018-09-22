@@ -29,6 +29,10 @@ html {
     color: $color-white;
     // font-size: 2rem;
   }
+  .welcome__description {
+    line-height: 1.5;
+    padding: 0 0.5rem;
+  }
 
   a.scroll-down {
     color: $color-white;
@@ -38,5 +42,24 @@ html {
     border-radius: 0.3rem;
     padding: 0.3rem 0.6rem;
     margin: 1rem;
+    position: relative;
+    padding-right: 2rem;
+    background-color: $color-buttercup1;
+    &:hover {
+      border: 0.2rem solid $color-buttercup;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      right: 0.5rem;
+      top: 0.7rem;
+      display: block;
+      width: 0px;
+      height: 0px;
+      border-top: 0.5rem solid $color-white;
+      // border-bottom: 0.5rem solid yellow;
+      border-right: 0.5rem solid transparent;
+      border-left: 0.5rem solid transparent;
+    }
   }
 }
