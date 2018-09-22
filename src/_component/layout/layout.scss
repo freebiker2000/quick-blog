@@ -7,6 +7,11 @@
 // }
 html, body {
   height: 100%;
+  font-family: 'Lobster';
+}
+
+html {
+  font-size: 3.5vw;
 }
 
 .welcome {
@@ -14,6 +19,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  align-items: center;
   justify-content: center;
   background-image: radial-gradient(ellipse, $color-buttercup, $color-golden-grass);
   // & > * {
@@ -21,12 +27,16 @@ html, body {
   // }
   h1 {
     color: $color-white;
-    font-size: 2rem;
+    // font-size: 2rem;
   }
 
-  a {
+  a.scroll-down {
     color: $color-white;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    border: 0.2rem solid $color-white;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.6rem;
+    margin: 1rem;
   }
 }
