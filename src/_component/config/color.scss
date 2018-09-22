@@ -1,4 +1,16 @@
-$color-buttercup: #f1c40f;
-$color-buttercup1: #f39c12;
+$theme: 'pickled-bluewood';
+
+$color-light: #f1f1f1;
+$color-dark: #000;
+
+@if ($theme == 'buttercup'){
+  $color-light: #f1c40f;
+  $color-dark: #f39c12;
+}
+
+@if ($theme == 'pickled-bluewood'){
+  $color-light: #34495e;
+  $color-dark: #2c3e50;
+}
 $color-white: #fff;
 $color-golden-grass: #dd9a2d;

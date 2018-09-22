@@ -10,8 +10,8 @@ html, body {
   font-family: 'Lobster';
 }
 
-html {
-  font-size: 3.5vw;
+@media screen and (min-width: 25em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
 }
 
 .welcome {
@@ -21,7 +21,7 @@ html {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-image: radial-gradient(ellipse, $color-buttercup, $color-golden-grass);
+  background-image: radial-gradient(ellipse, $color-light, $color-dark);
   // & > * {
   //   width: 100%;
   // }
@@ -44,9 +44,9 @@ html {
     margin: 1rem;
     position: relative;
     padding-right: 2rem;
-    background-color: $color-buttercup1;
+    background-color: $color-dark;
     &:hover {
-      border: 0.2rem solid $color-buttercup;
+      border: 0.2rem solid $color-light;
     }
     &:after {
       content: '';
