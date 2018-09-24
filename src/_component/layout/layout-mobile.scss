@@ -22,6 +22,15 @@ p {
   line-height: 1.3rem;
 }
 
+ol {
+  padding: 1rem 2rem;
+
+  li {
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+
 .welcome {
   height: 100%;
   display: flex;
@@ -97,6 +106,7 @@ p {
 .top {
   text-align: right;
   display: block;
+  text-decoration: none;
 }
 
 .top-arrow {
