@@ -4,6 +4,9 @@
 
 .menu__panel {
   margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
 }
 
 .menu__title {
@@ -22,6 +25,7 @@
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   margin-bottom: 1rem;
+  flex-grow: 1;
   
   a {
     color: $color-white;
