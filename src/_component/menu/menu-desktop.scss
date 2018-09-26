@@ -1,8 +1,5 @@
 @media (min-width: 1280px) {
-
-  // .welcome {
-  //   grid-column: 1/3;
-  //   grid-row: 1/2;
-  // }
-
+  .menu__list {
+    flex-grow: 0;
+  }
 }
