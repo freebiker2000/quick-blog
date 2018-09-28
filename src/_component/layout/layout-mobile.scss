@@ -34,7 +34,8 @@ ol {
 .welcome {
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  // flex-wrap: wrap;
   text-align: center;
   align-items: center;
   justify-content: center;
