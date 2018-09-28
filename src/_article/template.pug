@@ -15,11 +15,22 @@ block content
           .blockquote-footer
             a(href=object.link, target="_blank")=object.source
 
+      if object.type == 'h4'
+        h4=object.data
+
+      if object.type == 'h3'
+        h3=object.data
+
       if object.type == 'h2'
         h2=object.data
 
       if object.type == 'paragraph' || object.type == 'p'
-        p=object.data
+        each paragraph in object.data
+          p=paragraph
+
+      if object.type == 'paragraph-safe'
+        each paragraph in object.data
+          p!=paragraph
 
       if object.type == 'ul'
         ul
@@ -30,3 +41,9 @@ block content
         h3=object.title
         each dataValue in object.data
           pre.pre-title=dataValue
+
+      if object.type == 'hr'
+        hr
+
+      if object.type == 'img'
+        img(src=object.src)
