@@ -37,6 +37,11 @@ block content
           each listItem in object.data
             li=listItem
 
+      if object.type == 'ol'
+        ol
+          each listItem in object.data
+            li=listItem
+            
       if object.type == 'pre'
         h3=object.title
         each dataValue in object.data
