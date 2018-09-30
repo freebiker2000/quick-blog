@@ -1,4 +1,4 @@
-$theme: 'pickled-bluewood';
+$theme: 'viking';
 
 $color-light: #f1f1f1;
 $color-dark: #000;
@@ -11,6 +11,10 @@ $color-dark: #000;
 @if ($theme == 'pickled-bluewood'){
   $color-light: #34495e;
   $color-dark: #2c3e50;
+}
+@if ($theme == 'viking'){
+  $color-light: #80c5dd;
+  $color-dark: #329cc1;
 }
 
 $color-athens-gray: #e7e9ec;

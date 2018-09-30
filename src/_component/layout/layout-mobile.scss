@@ -16,9 +16,11 @@ html, body {
 
 a {
   color: $color-dark;
+  font-family: righteous;
 }
 
 p {
+  font-family: source sans pro;
   line-height: 1.3rem;
 }
 
@@ -131,4 +133,10 @@ ol {
 
 b {
   font-weight: bold;
+}
+
+.pre-title {
+  background-color: $color-athens-gray;
+  padding: 1rem;
+  margin: 1rem 0;
 }

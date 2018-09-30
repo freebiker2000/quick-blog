@@ -19,11 +19,6 @@
       ]
     }
     ,{
-      "type": "img",
-      "src": "selector.gif",
-      "autopath": false
-    }
-    ,{
       "type": "paragraph",
       "data": [
         "The selector points to the HTML element you want to style.",
