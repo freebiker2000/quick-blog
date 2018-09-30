@@ -5,8 +5,9 @@ block config
     var description = 'CSS3, what i\'ve learned so far!'
 block content    
   .content
-    h2 Discover the power of CSS3
-    .list-wrapper
-      each article in data.css
-        include ../_component/article/article
-        //- pre=JSON.stringify(article, null, 2)
+    #continue
+      h2 Discover the power of CSS3
+      .list-wrapper
+        each article in data.css
+          include ../_component/article/article
+          //- pre=JSON.stringify(article, null, 2)
