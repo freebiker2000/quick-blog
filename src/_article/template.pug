@@ -5,8 +5,8 @@ block config
     var description = template.head.description
   
 block content
-  .content
-    #continue
+  #continue
+    .content
       each object in template.body
         if object.type == 'blockquote'
           blockquote.blockquote

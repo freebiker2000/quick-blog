@@ -47,11 +47,11 @@ ol {
   // }
   h1 {
     color: $color-white;
-    margin: 1rem;
+    margin-bottom: 4rem;
     // font-size: 2rem;
   }
   .welcome__description {
-    line-height: 1.5;
+    line-height: 2;
     padding: 0 0.5rem;
   }
 
@@ -86,10 +86,10 @@ ol {
 }
 
 .content {
-  padding: 1.5rem;
+  padding: 1rem;
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: $color-dark;
     font-weight: bold;
     padding: 1rem;
