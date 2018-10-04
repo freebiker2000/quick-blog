@@ -2,11 +2,12 @@ doctype html
 html
 -
   var baseUrl = 'https://freebiker2000.github.io/quick-blog'
+  //- var baseUrl = 'http://localhost:3000'
 block config
 head
   title=title
   meta(name="description" content=description)
-  link(rel="stylesheet" href=`${baseUrl}style.css`)
+  link(rel="stylesheet" href=`${baseUrl}/style.css`)
   //- link(href="https://fonts.googleapis.com/css?family=Open+Sans", rel="styleshet")
 body
   include ../welcome/welcome
